@@ -7,7 +7,7 @@ int dive(int x, int y)
 	int count = 0;
 	int temp = x;
 	while (temp >= y) {
-		temp = sub(temp, b);
+		temp = sub(temp, y);
 		count++;
 	}
 	return count;

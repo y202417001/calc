@@ -1,7 +1,7 @@
 #include "mod.h"
 #include "sub.h"
 
-int add(int x, int y)
+int mod(int x, int y)
 {
 	if (y == 0) return 0;
 	while (x >= y) {

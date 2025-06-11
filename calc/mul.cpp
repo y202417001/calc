@@ -1,14 +1,14 @@
 #include "mul.h"
 #include "add.h"
 
-int mul(int x, int y)
+int mul(int a, int b)
 {
 	int i = 0;
 	int sum = 0;
 
-	for (i = 0; i < y; i++)
+	for (i = 0; i < b; i++)
 	{
-		sum = add(x, sum);
+		sum = add(a, sum);
 	}
 	return sum;
 }

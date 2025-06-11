@@ -3,10 +3,10 @@
 
 int mul(int a, int b)
 {
-	int i = 0;
+	int k = 0;
 	int sum = 0;
 
-	for (i = 0; i < b; i++)
+	for (k = 0; k < b; k++)
 	{
 		sum = add(a, sum);
 	}

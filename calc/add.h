@@ -1,3 +1,3 @@
 #pragma once
 
-int add(int a, int b);
+int add(int x, int y);
